@@ -10,10 +10,16 @@
     },
     {
       "id": 2,
-      "question": "Which planet is known as the Red Planet?",
-      "detail": "Basic astronomy: identify the well-known red planet.",
-      "options": ["Venus", "Earth", "Mars", "Jupiter"],
-      "answer": ["Mars"]
+      "question": "Which of these animals can fly?",
+      "detail": "Select all that apply. Some might surprise you!",
+      "options": [
+        "Penguin",
+        "Bat",
+        "Flying Squirrel",
+        "Ostrich",
+        "Hummingbird"
+      ],
+      "answer": ["Bat", "Flying Squirrel", "Hummingbird"]
     }
   ]
 }
