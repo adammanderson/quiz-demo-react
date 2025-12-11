@@ -1,0 +1,19 @@
+{
+  "title": "General Knowledge Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "detail": "This question tests your geographic knowledge and attention to detail.",
+      "options": ["Berlin", "Paris", "Rome", "Lisbon"],
+      "answer": ["Paris"]
+    },
+    {
+      "id": 2,
+      "question": "Which planet is known as the Red Planet?",
+      "detail": "Basic astronomy: identify the well-known red planet.",
+      "options": ["Venus", "Earth", "Mars", "Jupiter"],
+      "answer": ["Mars"]
+    }
+  ]
+}

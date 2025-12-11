@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+body {
+  @apply text-slate-900 bg-zinc-100;
+}
+
+@layer components {
+  .card {
+    @apply bg-white border border-slate-200 rounded-xl shadow-xl shadow-slate-200/40 p-6;
+  }
+
+  .button {
+    @apply bg-white border border-zinc-200 font-semibold rounded-xl px-4 py-2 shadow-xl shadow-slate-200/40 cursor-pointer transition-all;
+    @variant hover {
+      @apply bg-zinc-100 shadow-zinc-300/40;
+    }
+    @variant disabled {
+      @apply cursor-not-allowed opacity-35;
+    }
+  }
+
+  .hint {
+    @apply text-sm text-zinc-500 mb-2 select-none;
+  }
+
+  .option {
+    @apply p-3 w-full rounded-lg text-left bg-zinc-100 border border-transparent hover:cursor-pointer transition-colors;
+
+    @variant hover {
+      &:not(.option-selected) {
+        @apply bg-green-300;
+      }
+    }
+  }
+  .option-selected {
+    @apply bg-green-400 text-green-950 font-semibold;
+  }
+}
