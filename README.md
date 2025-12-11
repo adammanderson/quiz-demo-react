@@ -2,7 +2,7 @@
 
 ## Features
 
-- Ui based on wireframing
+- UI based on wireframing
 - Multi-select question support
 - Answer selection persists when navigating between questions
 - Navigation controls (Previous/Next with proper edge case handling)
