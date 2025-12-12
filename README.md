@@ -1,6 +1,10 @@
 # Quiz UI Demo
 
-## Features
+Adam Anderson - [quiz-demo-react](https://github.com/adammanderson/quiz-demo-react)
+
+![wireframe](assets/ui-flow.png)
+
+### Features
 
 - UI based on wireframing
 - Multi-select question support
@@ -10,13 +14,9 @@
 - Results page with scoring and confirmation message
 - Comprehensive unit tests for utilities and UI components
 
----
-
 ## Getting Started
 
-### Prerequisites
-
-- Node.js 22+ and npm
+**Prerequisites:** Node.js 22+ and npm
 
 ### Installation
 
@@ -44,8 +44,6 @@ npm test
 npm run build
 ```
 
----
-
 ## Project Structure
 
 ```
@@ -71,8 +69,6 @@ src/
 └── data.ts             # Static quiz data
 ```
 
----
-
 ## Time Spent
 
 **Approximately 3 hours** including:
@@ -81,8 +77,6 @@ src/
 - Component implementation and state management (1.5 hours)
 - Utility functions with unit tests (45 min)
 - Polish and documentation (15 min)
-
----
 
 ## Trade-offs & Future Improvements
 
@@ -169,8 +163,6 @@ src/
     - Storybook documentation
     - Design tokens for consistent theming
 
----
-
 ## Tech Stack
 
 - **React 19** with TypeScript
@@ -178,5 +170,3 @@ src/
 - **Tailwind CSS** for styling
 - **Vitest** for unit testing
 - **React Testing Library** for component tests
-
----
