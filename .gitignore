@@ -13,11 +13,8 @@ dist
 dist-ssr
 *.local
 
-# Manage lock files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-lerna-lock.json
+# Next.js build output
+out
 .next
 
 # Editor directories and files
