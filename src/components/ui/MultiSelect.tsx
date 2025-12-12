@@ -1,5 +1,5 @@
 import { memo, useMemo } from "react";
-import OptionButton from "../OptionButton";
+import OptionButton from "./OptionButton";
 
 interface Props {
   options: string[];
