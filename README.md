@@ -1,4 +1,6 @@
-# Quiz UI Demo
+# Quiz Demo React
+
+![CI status](https://github.com/adammanderson/quiz-demo-react/actions/workflows/ci.yml/badge.svg)
 
 Adam Anderson - [quiz-demo-react](https://github.com/adammanderson/quiz-demo-react)
 
